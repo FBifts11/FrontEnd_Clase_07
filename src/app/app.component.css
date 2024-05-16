@@ -1,0 +1,8 @@
+div {
+    max-width: 50%;
+    background-color: bisque;
+    margin: 5% auto;
+    padding: 2%;
+    text-align: center;
+    border: 5px solid red;
+}

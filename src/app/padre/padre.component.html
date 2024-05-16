@@ -1,0 +1,10 @@
+
+<div>
+    <h2>Este es el componente padre</h2>
+    <p>Contador: {{valorContador}}</p>
+
+    <button (click)="incrementarValor()">Incrementar</button>
+    <button (click)="decrementarValor()">Decrementar</button>
+
+<app-hijo [hijoRecibeMensaje] = "mensajePadre"></app-hijo> <!-- Paso 4, modifico el valor de la propiedad del hijo, en este caso le paso el contenido de la propiedad "mensajePadre" desde el TS del padre. -->
+</div>
